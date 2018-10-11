@@ -1,6 +1,6 @@
 {
   "name": "@runnerty/trigger-firebase",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Runnerty module: Trigger firebase realtime database",
   "author": "Coderty",
   "license": "MIT",
