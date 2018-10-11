@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "@runnerty-trigger-firebase",
+  "definitions": {
+    "config": {
+      "type": "object",
+      "required": [
+        "id",
+        "type"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string",
+          "pattern": "@runnerty-trigger-firebase"
+        },
+        "serviceAccount": {
+          "type": "string"
+        },
+        "databaseURL": {
+          "type": "string"
+        }
+      }
+    },
+    "params": {
+      "type": "object",
+      "required": [
+        "id",
+        "document"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "document": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
