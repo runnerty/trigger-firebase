@@ -1,4 +1,4 @@
-#Firebase Realtime Database Trigger for [Runnerty]:
+# Firebase Realtime Database Trigger for [Runnerty]:
 
 With this trigger you can stream Firebase Realtime Database documents. It gets fired when a new record is stored in the document
 
