@@ -24,7 +24,7 @@ class triggerFirebase extends Trigger {
       if (initialDataLoaded) {
         const checkCalendar = true;
         const inputValues = snapshot.val();
-        const customValues = {};
+        const customValues = snapshot.val();
 
         _this.startChain(checkCalendar, inputValues, customValues)
           .then(() => { })
