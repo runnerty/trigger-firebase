@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/runnerty/trigger-firebase#readme",
   "dependencies": {
-    "firebase-admin": "^5.13.1"
+    "firebase-admin": "^7.0.0"
   }
 }
